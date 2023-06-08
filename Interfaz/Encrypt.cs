@@ -169,7 +169,7 @@ namespace Interfaz
                 char encryptedChar = (char)encryptedAsciiValue;
                 pasos += string.Format("Carácter '{0}' encriptado como '{1}'\r\n", c, encryptedChar);
             }
-
+            pasos += "\nDespues la cadena es concatenada y convertida a hexadecimal para ser pegado a un archivo de audio";
             // Permutación
             //pasos += "\r\nPermutación:\r\n";
             //Random random = new Random();

@@ -47,7 +47,7 @@ namespace Interfaz
             // 
             this.inputbox.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.inputbox.ForeColor = System.Drawing.Color.Cyan;
-            this.inputbox.Font = new Font("Arial", 20);
+            this.inputbox.Font = new Font("Arial", 15);
             this.inputbox.Location = new System.Drawing.Point(12, 75);
             this.inputbox.Multiline = true;
             this.inputbox.Name = "inputbox";
@@ -60,7 +60,7 @@ namespace Interfaz
             // 
             this.outputbox.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.outputbox.ForeColor = System.Drawing.Color.Cyan;
-            this.outputbox.Font = new Font("Arial", 20);
+            this.outputbox.Font = new Font("Arial", 15);
             this.outputbox.Location = new System.Drawing.Point(399, 75);
             this.outputbox.Multiline = true;
             this.outputbox.Name = "outputbox";
@@ -73,7 +73,7 @@ namespace Interfaz
             // 
             this.stepsbox.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.stepsbox.ForeColor = System.Drawing.Color.Cyan;
-            this.stepsbox.Font = new Font("Arial", 20);
+            this.stepsbox.Font = new Font("Arial", 15);
             this.stepsbox.Location = new System.Drawing.Point(12, 261);
             this.stepsbox.Multiline = true;
             this.stepsbox.Name = "stepsbox";

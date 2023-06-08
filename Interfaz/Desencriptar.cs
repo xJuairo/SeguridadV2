@@ -171,6 +171,7 @@ namespace Interfaz
             // Puedes ajustar este algoritmo según tus necesidades
 
             // Sustitución
+            pasos += "Mensaje extraido del archivo de audio correctamente\n";
             pasos += "Sustitución:\r\n";
 
             foreach (char c in mensaje)
@@ -180,6 +181,7 @@ namespace Interfaz
                 char decryptedChar = (char)decryptedAsciiValue;
                 pasos += string.Format("Carácter '{0}' desencriptado como '{1}'\r\n", c, decryptedChar);
             }
+
 
 
 
